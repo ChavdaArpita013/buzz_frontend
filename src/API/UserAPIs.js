@@ -4,8 +4,6 @@ import axios from "axios";
 import Cookies from "js-cookie";
 
 export const server_url = import.meta.env.VITE_SERVER_URL;
-console.log(server_url);
-
 
 const createUser = async (formdata, navigate) => {
     try {
